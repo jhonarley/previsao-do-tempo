@@ -3,28 +3,29 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
    height: 100vh;
+   flex-direction: column;
  
     background-image: url("http://source.unsplash.com/1600x900/?landscape");
 }
 .local {
     color: #ffffff;
-    font-size: 28px;
+    font-size: 24px;
 }
 .temp {
     color: #ffffff;
     margin-top: 20px;
+    font-size: 45px;
 }
 .description {
     color: #ffffff;
-    margin-top: 20px;
     margin-left: 20px;
+    text-transform: capitalize;
 }
 
 .moisture {
@@ -45,6 +46,7 @@ body {
 
 }
 .input-city {
+    color: aqua;
     border: none;
     outline: none;
     padding: 10px;
@@ -70,10 +72,26 @@ button:hover {
     height: 20px;
 }
 
-.caixa {
+.caixinha {
 display: flex;
 margin-top:  30px;
 align-items: center;
+}
+h3 strong {
+color: rgb(7, 251, 11);
+}
 
-
+h3 {
+    color: #fff
+}
+.foother {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 12vh;
+    width: 100%;
+    position: absolute;
+    opacity: 0.6;
 }
